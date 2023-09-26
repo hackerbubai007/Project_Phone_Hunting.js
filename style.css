@@ -1,0 +1,124 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  .nav {
+    background: #0d6efd0d;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  .header {
+    background: #0d6efd0d;
+    padding-bottom: 96px;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 6px;
+  }
+  .header button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .input-bordered {
+    width: 100%;
+    max-width: 250px;
+    margin: 5px 0;
+  }
+  .phone-card {
+    margin: 40px auto;
+    text-align: center;
+  }
+  .loading {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  #phone-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 5px 8px;
+  }
+  #showALLBtn {
+    display: none;
+    justify-content: center;
+    margin: 8px 0;
+  }
+  .modal-box {
+    text-align: center;
+  }
+  .modal-action {
+    justify-content: center;
+  }
+
+  .footer {
+    background: #0d6efd0d;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer svg {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    fill: currentColor; /* Use the current text color for the SVG fill */
+  }
+
+  .footer p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .svg-path {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .img {
+    display: grid;
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Adjust column layout as needed */
+    gap: 20px; /* Adjust gap between images */
+    justify-content: center; /* Horizontally center the images */
+    align-items: flex-end; /* Vertically align images to the bottom */
+    padding: 20px;
+  }
+  #phone-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 5px 8px;
+  }
