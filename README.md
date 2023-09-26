@@ -1,7 +1,8 @@
 # Project_Phone_Hunting.js
 
-## Hosting Link:
-        https://hackerbubai007.github.io/Project_Phone_Hunting.js/
+### Hosting Link: 
+https://hackerbubai007.github.io/Project_Phone_Hunting.js/
+        
 # PhoneHuntingAPI
 This is a simple web application for searching and displaying phone information. It allows users to search for phones and view their details.
 
